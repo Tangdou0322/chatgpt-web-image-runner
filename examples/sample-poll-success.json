@@ -1,0 +1,11 @@
+{
+  "expectedImageCount": 6,
+  "latest": 6,
+  "group": 0,
+  "viewer": 6,
+  "thumbs": 5,
+  "creating": false,
+  "thinking": false,
+  "completedThought": "Thought for image generation",
+  "uploadError": null
+}

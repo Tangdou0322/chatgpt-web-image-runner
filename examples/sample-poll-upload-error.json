@@ -1,0 +1,11 @@
+{
+  "expectedImageCount": 6,
+  "latest": 0,
+  "group": 0,
+  "viewer": 0,
+  "thumbs": 0,
+  "creating": false,
+  "thinking": false,
+  "completedThought": null,
+  "uploadError": "Upload to files.oaiusercontent.com failed"
+}

@@ -47,7 +47,7 @@ Current scope:
 - reusable project structure for browser-based image pipelines
 - typed config model and example config
 - manifest writer
-- generic polling and retry policy model
+- generic polling state evaluator and retry policy model
 - redaction-safe documentation
 
 Planned scope:
@@ -76,6 +76,19 @@ Create an empty manifest:
 ```bash
 npm run manifest -- --output ./tmp/manifest.json
 ```
+
+Evaluate a polling snapshot:
+
+```bash
+npm run evaluate-state -- --snapshot ./examples/sample-poll-success.json
+```
+
+This helps answer:
+
+- is the run still in progress?
+- are the outputs already complete?
+- should the runner retry the same turn?
+- does the page show an upload-network failure pattern?
 
 ## Repository rules
 

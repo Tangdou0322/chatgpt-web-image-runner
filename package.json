@@ -8,7 +8,8 @@
   },
   "scripts": {
     "validate-config": "node ./src/cli.mjs validate-config",
-    "manifest": "node ./src/cli.mjs manifest"
+    "manifest": "node ./src/cli.mjs manifest",
+    "evaluate-state": "node ./src/cli.mjs evaluate-state"
   },
   "keywords": [
     "chatgpt",

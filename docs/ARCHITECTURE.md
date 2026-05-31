@@ -10,6 +10,7 @@ Provide a reusable browser automation baseline for image-generation workflows th
 2. Browser launch and remote debugging layer
 3. Web runner layer
 4. Batch or business wrapper layer
+5. Polling state evaluation layer
 
 ## Core loop
 
@@ -23,6 +24,19 @@ Provide a reusable browser automation baseline for image-generation workflows th
 8. Collect generated images
 9. Save outputs and manifest
 10. Retry or restart browser if needed
+
+## First reusable logic
+
+The first reusable runner logic in the open-source version is the polling state evaluator.
+
+It converts a redacted polling snapshot into:
+
+- `success`
+- `in_progress`
+- `retryable_failure`
+- `unknown`
+
+This keeps the page-state decision logic reusable before the real browser collector is added.
 
 ## Open-source boundary
 

@@ -5,6 +5,7 @@
 - generic repository structure
 - config validation
 - manifest writer
+- polling state evaluator
 - redaction-safe example config
 
 ## v0.2
