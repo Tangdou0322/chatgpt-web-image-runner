@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-web-image-runner",
+  "version": "0.1.0",
+  "description": "Browser-based image generation automation for web chats when no official API is available.",
+  "type": "module",
+  "bin": {
+    "chatgpt-web-image-runner": "./src/cli.mjs"
+  },
+  "scripts": {
+    "validate-config": "node ./src/cli.mjs validate-config",
+    "manifest": "node ./src/cli.mjs manifest"
+  },
+  "keywords": [
+    "chatgpt",
+    "browser-automation",
+    "image-generation",
+    "runner",
+    "cdp",
+    "playwright"
+  ],
+  "license": "MIT"
+}

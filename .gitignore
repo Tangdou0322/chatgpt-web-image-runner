@@ -1,0 +1,22 @@
+# Sensitive config
+.env
+.env.*
+secrets.*
+config.local.*
+
+# Node
+node_modules/
+
+# Builds and temp
+dist/
+coverage/
+*.log
+*.tmp
+*.bak
+tmp/
+
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

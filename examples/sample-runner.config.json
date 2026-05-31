@@ -1,0 +1,26 @@
+{
+  "account": {
+    "profileName": "your_profile_name",
+    "remoteDebuggingPort": 9222,
+    "chatUrl": "https://chat.example.com/your-chat"
+  },
+  "run": {
+    "commandName": "generate-product-images",
+    "promptTemplatePath": "./prompts/example-prompt.md",
+    "expectedImageCount": 6
+  },
+  "paths": {
+    "workDir": "./work",
+    "outputDir": "./output"
+  },
+  "polling": {
+    "initialWaitSeconds": 120,
+    "intervalSeconds": 60,
+    "maxPollRounds": 12
+  },
+  "retries": {
+    "inlineRetryPrompt": "Retry the same generation flow and produce the full expected image set.",
+    "maxInlineRetries": 1,
+    "maxBrowserRestarts": 1
+  }
+}
